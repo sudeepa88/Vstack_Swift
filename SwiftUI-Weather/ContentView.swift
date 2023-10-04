@@ -9,20 +9,45 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            VStack{
-            Text("Hello, world!")
-            Button("Button"){
-                
-            }
-            }.background(Color(red: 0.2, green: 0.8, blue: 0.6)).cornerRadius(8)
+        
+        ZStack(alignment: .top) {
             
-            VStack{
-                Text("Sudeepa Come here!").padding([.horizontal, .top],9)
-                Button("Click Me!"){
+            VStack(spacing:30){
+                Text("Hello").font(.largeTitle)
+                
+                
+               
+                VStack{
+                    VStack{//1no vstack
+                        ///no content
+                    }.frame(width:75, height:75).background(Color.cyan).cornerRadius(10).padding().padding(.trailing,200)
                     
-                }
-            }.background(Color.yellow).cornerRadius(8).padding(.top)
+                    Spacer()
+                    Button("Added") {
+                       ///currently no action
+                    }.padding().background(Color.green).foregroundColor(.white)
+                        .cornerRadius(10)
+
+
+                }.frame(maxWidth:300, maxHeight:400).padding(.bottom,20).background(Color.yellow).cornerRadius(10)
+                        
+                
+                        
+                       
+                        
+                VStack{//2no vstack
+
+//                    Text("Okay").padding()
+                    //add scroll functionality
+
+                }.frame(maxWidth:300, maxHeight:200, alignment: .topLeading).background(Color.yellow).cornerRadius(10)
+                        
+                
+                
+                
+            }//end of main vstack
+            
+            
         }
         
         
