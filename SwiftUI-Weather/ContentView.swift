@@ -15,7 +15,7 @@ struct ContentView: View {
             VStack(spacing:30){
                 Text("Hello").font(.largeTitle)
                 
-                
+         
                
                 VStack{
                     VStack{//1no vstack
@@ -25,13 +25,13 @@ struct ContentView: View {
                     Spacer()
                     Button("Added") {
                        ///currently no action
+                       
                     }.padding().background(Color.green).foregroundColor(.white)
                         .cornerRadius(10)
 
 
                 }.frame(maxWidth:300, maxHeight:400).padding(.bottom,20).background(Color.yellow).cornerRadius(10)
-                        
-                
+              //Navigation link
                         
                        
                         
@@ -55,23 +55,12 @@ struct ContentView: View {
     }
     
 }
-
-
-struct AdivView:View{
-    var body: some View{
-        VStack{
-            Text("Sudeepa Come here!")
-            Button("Click Me!"){
-                
-            }
-        }
-    }
-}
-
-
+    
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        
+            
         
     }
 }

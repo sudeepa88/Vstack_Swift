@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D943D64F2ACED6C600F5B8E3 /* AdivView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D943D64E2ACED6C600F5B8E3 /* AdivView.swift */; };
 		D9DD57952ACC6B770013DE35 /* SwiftUI_WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD57942ACC6B770013DE35 /* SwiftUI_WeatherApp.swift */; };
 		D9DD57972ACC6B770013DE35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD57962ACC6B770013DE35 /* ContentView.swift */; };
 		D9DD57992ACC6B7F0013DE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DD57982ACC6B7F0013DE35 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D943D64E2ACED6C600F5B8E3 /* AdivView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdivView.swift; sourceTree = "<group>"; };
 		D9DD57912ACC6B770013DE35 /* SwiftUI-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DD57942ACC6B770013DE35 /* SwiftUI_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WeatherApp.swift; sourceTree = "<group>"; };
 		D9DD57962ACC6B770013DE35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				D9DD57962ACC6B770013DE35 /* ContentView.swift */,
 				D9DD57982ACC6B7F0013DE35 /* Assets.xcassets */,
 				D9DD579A2ACC6B7F0013DE35 /* Preview Content */,
+				D943D64E2ACED6C600F5B8E3 /* AdivView.swift */,
 			);
 			path = "SwiftUI-Weather";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D943D64F2ACED6C600F5B8E3 /* AdivView.swift in Sources */,
 				D9DD57972ACC6B770013DE35 /* ContentView.swift in Sources */,
 				D9DD57952ACC6B770013DE35 /* SwiftUI_WeatherApp.swift in Sources */,
 			);
