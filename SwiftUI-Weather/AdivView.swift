@@ -54,7 +54,7 @@ struct AdivView:View{
                     }.font(.system(size:18,weight: .bold)).foregroundStyle(.white).padding(.vertical,15).padding(.horizontal,95).background(Color.green).cornerRadius(35)
                 }
                 
-            }//closing Vstack
+            }.navigationBarHidden(true)//closing Vstack
         }//Zstack
         //Navigation view
     }

@@ -11,11 +11,13 @@ struct ContentView: View {
     var body: some View {
         
         ZStack(alignment: .top) {
-            
+        NavigationView{
             VStack(spacing:30){
                 Text("Hello").font(.largeTitle)
-                
-         
+                 //add Navigation view
+                NavigationLink{
+                    AdivView()
+                }label: {
                
                 VStack{
                     VStack{//1no vstack
@@ -30,10 +32,10 @@ struct ContentView: View {
                         .cornerRadius(10)
 
 
-                }.frame(maxWidth:300, maxHeight:400).padding(.bottom,20).background(Color.yellow).cornerRadius(10)
+                }.frame(maxWidth:300, maxHeight:400).padding(.bottom,30).background(Color.yellow).cornerRadius(10)
               //Navigation link
-                        
-                       
+            }
+            
                         
                 VStack{//2no vstack
 
@@ -45,10 +47,10 @@ struct ContentView: View {
                 
                 
                 
-            }//end of main vstack
+            }.navigationBarHidden(true)//end of main vstack
+            }//navigation view
             
-            
-        }
+        }//Zstack
         
         
         
