@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct AdivView:View{
+    @Environment(\.presentationMode) var presentationMode
+    //For accessing the back feature 
     var body: some View{
         
         ZStack(alignment: .top){
